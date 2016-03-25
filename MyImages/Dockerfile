@@ -4,7 +4,7 @@ from java:7
 #Run apt-get install -y wget
 COPY HelloWorld.java /
 RUN javac HelloWorld.java
-ENTRYPOINT ["java","HelloWorld"]
+ENTRYPOINT ["java","HelloWorld nnico"]
 #CMD ["wget","www.google.com"]
 
 
